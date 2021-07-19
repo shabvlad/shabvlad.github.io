@@ -1,0 +1,13 @@
+header{
+  background-color:#F8D56C;
+}
+body {
+  width:1000px;
+  margin: auto;
+}
+
+h1{font-family: 'Marmelad', sans-serif;
+  color:white;
+  font-size:80px;
+  line-height:81%;
+}
