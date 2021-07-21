@@ -1,5 +1,13 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Marmelad&display=swap');
+@font-face {
+    font-family: 'MarmeladRegular';
+    src: url('fonts/MarmeladRegular.eot');
+    src: url('fonts/MarmeladRegular.eot') format('embedded-opentype'),
+         url('fonts/MarmeladRegular.woff2') format('woff2'),
+         url('fonts/MarmeladRegular.woff') format('woff'),
+         url('fonts/MarmeladRegular.ttf') format('truetype'),
+         url('fonts/MarmeladRegular.svg#MarmeladRegular') format('svg');
+}
 
 
 .row {
