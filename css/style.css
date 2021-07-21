@@ -43,13 +43,13 @@
   margin-top: 100;
 }
 
-.krik{
-  font-weight:regular;
+.krik
   font-size:57px;
   color:#F8D56C;
   text-align:center;
   font-family: 'Oswald', sans-serif;
   line-height:85%;
+  font-weight: bold;
 }
 
 h2 {
