@@ -1,0 +1,119 @@
+
+@font-face {
+    font-family: Marmelad;
+    src: url(C:\Users\ASUS\Desktop\assets\Marmelad-Regular.ttf) ;
+}
+
+.row {
+  
+  display: flex;  
+  flex-direction: row;  
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+}
+
+.col-1,
+.col-2,
+.col-3,
+.col-4 {
+    
+  flex-grow: 0;
+  flex-shrink: 0;
+  box-sizing: border-box;
+  padding-right: 20px;
+}
+
+.col-1 {
+    
+  flex-basis: 25%;
+  max-width: 25%;
+}
+
+.col-2 {
+  flex-basis: 50%;
+  max-width: 50%;
+}
+
+.col-3 {
+  flex-basis: 75%;
+  max-width: 75%;
+}
+
+.col-4 {
+  flex-basis: 100%;
+  max-width: 100%;
+}
+  
+.col-1 {
+    
+  margin-top: 100;
+}
+
+.krik{
+  color:#F8D56C;
+  text-align:center;
+}
+
+h2 {
+  font-weight:bold;
+  font-size:40px;
+  line-height:85%;
+  margin: 0;
+}
+
+p {
+   font-size:28px;
+   line-height:33px;
+}
+
+
+header{
+  background-color:#F8D56C;
+}
+
+body {
+  width:1000px;
+  margin: auto;
+  font-family: 'Roboto', sans-serif;
+  font-weight: regular;
+}
+
+
+
+h1{font-family: 'Marmelad';
+  font-size:80px;
+  line-height:81%;
+  color: white;
+}
+
+
+nav {
+  display: flex;
+  flex-grow: 1;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  color:#1D4F7F;
+  padding:18px 39px 0px;
+}
+
+nav ul {
+  display: flex;
+  flex-flow: row nowrap;
+  margin: 0;
+  list-style: none;
+  padding-inline-start: 26px;
+}
+
+nav li {
+  margin-right: 18px;
+  padding:0 14px 2px;
+  vertical-align:middle;
+}
+
+a {
+  text-decoration:underline;
+  color: white;
+  font-size:24px;
+
+}
