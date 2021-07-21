@@ -46,6 +46,7 @@
 .krik{
   color:#F8D56C;
   text-align:center;
+  font-family: 'Oswald', sans-serif;
 }
 
 h2 {
@@ -75,7 +76,7 @@ body{
 
 
 h1{ 
-  font-family: 'Marmelad', sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-size:80px;
   line-height:81%;
   color: white;
