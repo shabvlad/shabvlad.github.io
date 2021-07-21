@@ -44,9 +44,12 @@
 }
 
 .krik{
+  font-weight:regular;
+  font-size:57px;
   color:#F8D56C;
   text-align:center;
   font-family: 'Oswald', sans-serif;
+  line-height:85%;
 }
 
 h2 {
