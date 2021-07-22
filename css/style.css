@@ -101,22 +101,24 @@ blockquote {
 }
 
 .footer{
-  width: 100%;          
-  display:inline;
+   display: flex;  
+  flex-direction: row;  
+  justify-content: flex-start;
+  flex-wrap: nowrap;
 }
       
 
+
 .icons{
-    margin: 0; /* Обнуляем значение отступов */
-    padding: 4px; /* Значение полей *
-    display: inline; /* Отображать как строчный элемент */
-    margin-right: 5px; /* Отступ слева */
-    border: 1px solid #000; /* Рамка вокруг текста */
-    padding: 3px;
+  display: inline;
 }
 
 .copyright{
-           background-colour: black;
+  
+  flex-basis: 50%;
+  max-width: 50%;
+  margin-left: 33px;
+  margin-top: -7px;
  
 }
 ul li {
