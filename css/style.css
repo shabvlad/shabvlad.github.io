@@ -101,7 +101,7 @@ blockquote {
 }
 
 .footer{
-            padding:3em 0;
+            display:inline-block;
         }
        .footer-container{
             width: 100%;
