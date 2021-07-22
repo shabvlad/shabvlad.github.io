@@ -101,10 +101,7 @@ blockquote {
 }
 
 .footer{
-   display: flex;  
-  flex-direction: row;  
-  justify-content: flex-start;
-  flex-wrap: nowrap;
+   display: inline;
 }
       
 
@@ -113,16 +110,6 @@ blockquote {
   display: inline;
 }
 
-.copyright{
-  
-  flex-basis: 50%;
-  max-width: 50%;
-  margin-left: 33px;
-  margin-top: -7px;
- 
-}
-ul li {
-    display: inline;
     
     
     
