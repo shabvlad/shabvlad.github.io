@@ -102,12 +102,17 @@ blockquote {
 
 .footer{
   width: 100%;          
-  display:inline-block;
+  display:inline;
 }
       
 
 .icons{
-            display:inline-block;
+    margin: 0; /* Обнуляем значение отступов */
+    padding: 4px; /* Значение полей *
+    display: inline; /* Отображать как строчный элемент */
+    margin-right: 5px; /* Отступ слева */
+    border: 1px solid #000; /* Рамка вокруг текста */
+    padding: 3px;
 }
 
 .copyright{
