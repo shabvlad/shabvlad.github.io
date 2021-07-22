@@ -55,12 +55,13 @@
 h2 {
   font-weight:bold;
   font-size:36px;
-  margin-bottom -150;
+  margin-bottom 0;
 }
 
 p {
    font-size:28px;
    line-height:30px;
+   margin-top: 163;
 }
 
 
