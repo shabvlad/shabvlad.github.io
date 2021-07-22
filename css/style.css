@@ -101,22 +101,19 @@ blockquote {
 }
 
 .footer{
+  width: 100%;          
+  display:inline-block;
+}
+      
+
+.icons{
             display:inline-block;
-        }
-       .footer-container{
-            width: 100%;
-            margin: 0 auto;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-        }
-        .footer-menu ul li{
-            display:inline-block;
-        }
-        .footer-menu ul li a{
-            margin:0 1em;
-            font-size:1.2rem;
-            text-decoration:none;
-        }
+}
+
+.copyrithing{
+           background-colour: black;
+}
+    
+    
     
 
