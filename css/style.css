@@ -57,9 +57,9 @@ header{
 
 body{
   width:1000px;
-  margin: auto;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
+  margin:auto;
 }
 
 
@@ -70,6 +70,7 @@ h1{
   line-height:100%;
   color: white;
   letter-spacing: -2px;
+  margin: 83px 0px 33px 33px
 }
 
 
@@ -80,7 +81,8 @@ nav {
   justify-content: flex-start;
   align-items: flex-start;
   color:#1D4F7F;
-  padding:18px 39px 0px;
+  padding:8px 19px 0px;
+  margin-bottom 0px;
 }
 
 nav ul {
