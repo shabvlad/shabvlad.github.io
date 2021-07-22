@@ -19,8 +19,8 @@
 .col-1 { 
   flex-basis: 25%;
   max-width: 25%;
-  margin-top: 48px;
-  margin-left: -30.6px
+  margin-top: 39px;
+  margin-left: -23px
 }
  
 
@@ -28,7 +28,8 @@
 .col-2 {
   flex-basis: 50%;
   max-width: 50%;
-  margin-left: 31px;
+  margin-left: 33px;
+  margin-top: -7px;
 }
 
 
@@ -54,12 +55,14 @@ p {
    font-size:28px;
    line-height:30px;
    margin-top: -23px;
+   letter-spacing: -px;
   
 }
 
 
 header{
   background-color:#F8D56C;
+  padding-bottom: 9px;
 }
 
 body{
@@ -77,33 +80,27 @@ h1{
   line-height:100%;
   color: white;
   letter-spacing: -2px;
-  margin: 83px 0px 33px 33px
+  margin: 85px 0px 33px 33px
 }
 
 
 nav {
   display: flex;
-  flex-grow: 1;
-  flex-flow: row nowrap;
-  justify-content: flex-start;
-  align-items: flex-start;
-  color:#1D4F7F;
-  padding:8px 19px 0px;
-  margin-bottom 0px;
+  padding:5px 0px 0px 9px;
 }
 
 nav ul {
   display: flex;
-  flex-flow: row nowrap;
-  margin: 0;
+  margin:0;
   list-style: none;
-  padding-inline-start: 26px;
+  padding-inline-start: 22px;
 }
 
 nav li {
-  margin-right: 18px;
-  padding:0 14px 2px;
-  vertical-align:middle;
+  margin-right: -1px;
+  margin-top: 1px;
+  padding:9px 9px;
+  vertical-align: middle ;
 }
 
 a {
