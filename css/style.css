@@ -100,3 +100,26 @@ blockquote {
   margin-left: 7px
 }
 
+.footer{
+            padding:3em 0;
+            box-shadow: 0 0px 10px #ccc;
+            background-color: #fff;
+        }
+       .footer-container{
+            width: 100%;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .footer-menu ul li{
+            display:inline-block;
+        }
+        .footer-menu ul li a{
+            color:#6E6E6E;
+            margin:0 1em;
+            font-size:1.2rem;
+            text-decoration:none;
+        }
+    
+
