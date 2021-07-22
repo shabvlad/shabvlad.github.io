@@ -117,7 +117,10 @@ blockquote {
 
 .copyright{
            background-colour: black;
+ 
 }
+ul li {
+    display: inline;
     
     
     
