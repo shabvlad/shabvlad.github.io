@@ -114,19 +114,12 @@ blockquote {
 .icons{
   display: inline;
   margin-left: 838px;
- 
-}
+  
 
 }
 
-.ig,
-.fb, 
-.vk{
-  margin-right: 221px;
-}    
-    
+.icons img{
+  margin-right: 7px;
+}
 
-    
-    
-    
 
